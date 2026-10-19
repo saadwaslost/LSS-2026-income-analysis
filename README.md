@@ -46,7 +46,7 @@ Rates are reported with group sizes and 95% Wilson confidence intervals. The sta
 To run: `pip install pandas numpy matplotlib seaborn statsmodels`, add the CSV as `data/adult.csv`, then `python lss_analysis.py`.
 
 ## Credits
-ISL PA Team A: Umer, Saad, Inayah, Hania and Minahil. The analysis was team work throughout.
+ISL PA Team A: Saad Muhammad Malik (Team Lead), Ch. Muhammad Umer Shahid, Inayah Jawad, Hania Hammad Hashmi and Minahil Rashid.
 
 ## Licence
 All rights reserved by the team. The dataset is © its creators, CC BY 4.0.
