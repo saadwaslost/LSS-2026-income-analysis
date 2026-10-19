@@ -16,8 +16,7 @@ The organisers asked: *"Is education the way to earn more income or does the dat
 3. **What can change this?** For whom does education pay more, or less?
 
 ## Data
-The UCI Adult ("Census Income") dataset: 48,842 employed adults from the 1994 US Census, each with 14 characteristics and whether they earn over $50K (23.9% do). Citation: Becker, B. & Kohavi, R. (1996), UCI Machine Learning Repository, [doi:10.24432/C5XW20](https://doi.org/10.24432/C5XW20), CC BY 4.0. The data is not included here; see [data/README.md](data/README.md).
-
+The UCI Adult ("Census Income") dataset: 48,842 employed adults from the 1994 US Census, each with 14 characteristics and whether they earn over $50K (23.9% do). Citation: Becker, B. & Kohavi, R. (1996), UCI Machine Learning Repository, [doi:10.24432/C5XW20](https://doi.org/10.24432/C5XW20), CC BY 4.0. A copy is included in data/, with the changes from the original listed in [data/README.md](data/README.md).
 Cleaning decisions worth knowing:
 - **Capital gains and losses removed as leakage.** All 244 rows at the column's maximum (99,999) earn over $50K: it's a cap value, and the income label already includes capital gains.
 - **Missing occupation kept, not dropped.** The 2,805 people with no recorded occupation are very different: 9.45% earn over $50K versus 24.83% (z = −18.5). Dropping them would bias the results.
@@ -40,10 +39,10 @@ Rates are reported with group sizes and 95% Wilson confidence intervals. The sta
 
 ## Files
 - `LSS2026_deck.pdf`: the 20-slide presentation (Round 1 and Round 2).
-- `lss_analysis.py`: the team's Colab notebook, exported. It covers the cleaning, the missing-occupation table, the η² ranking, the Wilson interval table, the occupation table and four figures. The Round 2 models (the regression, decomposition and odds ratios) are not in this file. Comments were tidied for publication; the code itself is unchanged.
-- `data/`: where to put the dataset.
+- `lss_analysis.py`: the team's Colab notebook, exported. It covers the cleaning, the missing-occupation table, the η² ranking, the Wilson interval table, the occupation table and four figures. The Round 2 models (the regression, decomposition and odds ratios) are not in this file. For publication, the comments were tidied, the Google Drive loading was replaced with the local file, and two axis labels were corrected from ">$50" to ">$50K"; the analysis is unchanged.
+- `data/adult.csv`: the dataset.
 
-To run: `pip install pandas numpy matplotlib seaborn statsmodels`, add the CSV as `data/adult.csv`, then `python lss_analysis.py`.
+To run: `pip install pandas numpy matplotlib seaborn statsmodels`, then `python lss_analysis.py`.
 
 ## Credits
 ISL PA Team A: Saad Muhammad Malik (Team Lead), Ch. Muhammad Umer Shahid (Analysis code), Inayah Jawad, Hania Hammad Hashmi and Minahil Rashid.
