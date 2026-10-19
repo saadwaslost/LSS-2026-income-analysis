@@ -6,7 +6,7 @@
 |---|---|
 | **Team** | ISL PA Team A, five students from International School Lahore |
 | **Event** | LUMS Science Symposium 2026, Data Science stream (organised by SPADES, LUMS) |
-| **My role** | Led the analytical framework (the hypotheses, what to control for and what not to) and the methodology defence in the panel Q&A |
+| **My role** | Team Lead; Led the analytical framework (the hypotheses, what to control for and what not to) and the methodology defence in the panel Q&A |
 | **Tools** | Python (pandas, NumPy, statsmodels, matplotlib, seaborn) in Google Colab |
 
 ## The question
