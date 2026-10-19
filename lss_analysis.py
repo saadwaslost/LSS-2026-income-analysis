@@ -2,8 +2,8 @@
 """LSS 2026 Data Science - "Is education the way?" (ISL PA Team A)
 
 Exported from the team's Google Colab notebook. Cleaning, descriptive tables and figures.
-Data: UCI Adult / Census Income (Becker & Kohavi, 1996), CC BY 4.0, not included in this repo.
-Put the CSV at data/adult.csv (see README) and run:  python lss_analysis.py
+Data: UCI Adult / Census Income (Becker & Kohavi, 1996), CC BY 4.0, copy in data/adult.csv.
+Run from the repo folder:  python lss_analysis.py
 """
 
 import numpy as np
